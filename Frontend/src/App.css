@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+.p{
+    max-width: 200px; /* Adjust the width as needed */
+    word-wrap: break-word; /* Allow hyphenation for long words */
+  }
+  @media only screen and (max-width: 600px) {
+    #title{
+        width: 85vw;
+    }
+    #textarea{
+        width: 100vw;
+    }
+    .ct{
+        padding-left: 6px;
+    }
+  }
+.min-h-custom{
+    min-height: calc(100vh - 64px);
+}
+.displayNone{
+    display: none;
+}
+.border-box{
+    box-sizing: border-box;
+}
+.w-100vw{
+    max-width: calc(100vw - 7px);
+}
+.overflowX{
+    overflow-x: hidden;
+    max-width: 100vw;
+}
+.displayNone{
+    display: none;
+}
