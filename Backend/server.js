@@ -16,7 +16,7 @@ const PORT = process.env.PORT
 const __dirname = path.resolve()
 app.use(express.json())
 app.use(cors())
-app.use(express.static(path.join(__dirname,"..","Frontend","dist")))
+app.use(express.static(path.join(__dirname,"Frontend","dist")))
 app.use('/auth/signup',usersignup)
 app.use('/auth/login',userlogin)
 app.use('/auth/logout',userlogout)
@@ -25,7 +25,7 @@ app.use('/note',NoteRoute)
 
 
 app.get('*',(req,res) => { 
-    res.sendFile(path.join(__dirname,"..","Frontend","dist","index.html"))
+    res.sendFile(path.join(__dirname,"Frontend","dist","index.html"))
  })
 app.listen(PORT,()=>{
     console.log('server running in port ',PORT)
