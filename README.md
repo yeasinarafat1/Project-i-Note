@@ -17,7 +17,7 @@
 ## To Run this Aplication localy on your computer follow those steps :
 ## Frist clone this repo by pasting this command on your turminal
 ```bash
-git clone https://github.com/yeasinarafat1/
+https://github.com/yeasinarafat1/Project-i-Note.git
 ```
 ### create a .env file and fill with these value 
 ```js
