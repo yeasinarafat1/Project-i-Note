@@ -6,7 +6,7 @@
 ## A demo is better than thousand word give it a try
 
 # Demo
-# [https://iNote.render.com]([https://project-i-note.onrender.com](https://project-i-note.onrender.com)")
+# [https://iNote.render.com]([https://project-i-note.onrender.com](https://project-i-note.onrender.com)
 [![Demo Image](i-noteDemo.png)](https://project-i-note.onrender.com)
 
 ## Thech Stack
