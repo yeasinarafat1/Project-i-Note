@@ -6,7 +6,7 @@
 ## A demo is better than thousand word give it a try
 
 # Demo
-# [https://iNote.render.com](https://project-i-note.onrender.com "i-Note")
+# [project-i-note.onrender.com](https://project-i-note.onrender.com "i-Note")
 
 ## Thech Stack
 - ## Mongo DB For database
